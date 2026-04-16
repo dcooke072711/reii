@@ -20,7 +20,6 @@ local function ShowLoadingScreen()
     local ScreenGui = Instance.new("ScreenGui")
     ScreenGui.Name = "ReiilLoadingScreen"
     ScreenGui.ResetOnSpawn = false
-    ScreenGui.ZIndex = 9999
     ScreenGui.Parent = PlayerGui
     
     local Background = Instance.new("Frame")
